@@ -1,0 +1,23 @@
+.Plate {
+  width: 1000px;
+  height: fit-content;
+  margin: 0 16px;
+}
+
+.carousel-cell {
+    width: 1500px;
+    height: 600px;
+    margin-right: 5%;
+  }
+
+.flickity-enabled {
+    position: relative;
+  }
+  
+  .flickity-enabled:focus { outline: none; }
+  
+  .flickity-viewport {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+  }

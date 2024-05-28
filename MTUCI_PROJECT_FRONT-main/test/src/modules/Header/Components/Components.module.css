@@ -1,0 +1,236 @@
+
+.logoContainer {
+    margin-left: 20px;
+    width: 185px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoContainer:hover {
+    cursor: pointer;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+}
+
+.title {
+    display: block;
+    color: white;
+    width: 128px;
+    height: 33px;
+    align-content: center;
+    text-align: center;
+}
+
+.iconsContainer {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.dotaContainer {
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100%;
+}
+
+
+.lolContainer {
+    background: rgb(0,117,255);
+    background: radial-gradient(circle, rgba(0,117,255,0.5) 0%, rgba(0,0,0,0.5) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;   
+    height: 100%;
+}
+
+.dotaContainer:hover {
+    cursor: pointer;
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,0.6) 0%, rgba(0,0,0,0.5) 100%);
+}
+
+.lolContainer:hover {
+    cursor: pointer;
+    background: rgb(0,117,255);
+    background: radial-gradient(circle, rgba(0,117,255,0.6) 0%, rgba(0,0,0,0.5) 100%);
+}
+
+.userMenuContainer {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    background-image: url('./Images/Avatar.png');
+    background-size: cover;
+}
+
+.avatar:hover {
+    cursor: pointer;
+}
+
+.userLevel {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    align-self: flex-end;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settingBtn {
+    width: 35px;
+    height: 35px;
+    color: #F8F8F8;
+    margin-left: 20px;
+    transition: 0.2s ease;
+}
+
+.settingBtn:hover {
+    cursor: pointer;
+    color: #d1cfcf;
+}
+
+
+.authBtn {
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s ease;
+    background-color: rgb(42, 42, 67);
+}
+
+.authBtn:hover {
+    cursor: pointer;
+    background-color: rgb(35, 35, 56);
+}
+
+.authBtn:active {
+    width: 95px;
+    height: 38px;
+    font-size: 15.2px;
+}
+
+.userMenuOpen {
+    display: none;
+}
+
+.userMenuClose {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .logoContainer {
+        margin-left: 20px;
+        width: 40px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .title {
+        display: block;
+        color: white;
+        width: 128px;
+        height: 33px;
+        align-content: center;
+        text-align: center;
+    }
+
+    .iconsContainer {
+        display: none;
+    }
+
+    .authBtn {
+        display: none;
+    }
+    
+    .burgerMenu {
+        display: block;
+        width: 40px;
+        height: 40px;
+        color: red;
+        margin-left: 90px;
+        margin-top: 5px
+        
+    }
+
+    .userMenuOpen {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: -1;
+        margin-top: 60px
+    }
+    
+    .coursNav {
+        width: 100%;
+        height: 80px;
+        border-bottom: 1px solid gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #LoL {
+        background: rgb(0,117,255);
+        background: radial-gradient(circle, rgba(0,117,255,0.499124649859944) 0%, rgba(0,117,255,0.5047268907563025) 8%, rgba(0,0,0,0) 100%);
+    }
+
+    #dota {
+        background: rgb(255,0,0);
+        background: radial-gradient(circle, rgba(255,0,0,0.499124649859944) 0%, rgba(255,0,0,0.5047268907563025) 8%, rgba(0,0,0,0) 100%);
+    }
+
+    .gameIcon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .authNav {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}

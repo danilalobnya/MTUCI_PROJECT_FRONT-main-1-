@@ -1,0 +1,11 @@
+.wrapper {
+    width: 32px;
+    height: 78px;
+    opacity: 0.7;
+    transition: 0.2s ease;
+}
+
+.wrapper:hover {
+    opacity: 1;
+}
+

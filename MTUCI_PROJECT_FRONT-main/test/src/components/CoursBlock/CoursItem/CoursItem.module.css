@@ -1,0 +1,109 @@
+.container{
+    width: 400px;
+    height: 550px;
+    margin: 50px;
+    border-radius: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #010A13;
+}
+
+.titleBlock{
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35.4px;
+    color: #fff
+}
+
+.title{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 35.4px;
+    color: #fff   
+}
+
+.titleIcon{
+    width: 60px;
+    height: 60px;
+    background-color: inherit;
+    margin-left: 5px;
+}
+
+
+.thesisBlock{
+    margin-top: 20px;
+    height: 200px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.thesis{
+    color: #fff;
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 30px;
+    list-style: disc;
+}
+
+
+.timeInfo{
+    width: 350px;
+    height: 65px;
+    background-color: #0A323C;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30.4px;
+    color: #fff;
+}
+
+.startButton{
+    margin-top: 20px;
+    width: 225px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: inherit;
+    color: #fff;
+    font-weight: 550;
+    font-size: 20px;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+/* .startButton:hover::before{
+    
+    border-right: 1px solid #C89B3C;
+    width: 16px;
+    height: 21px;
+    content: '';
+    position: absolute;
+    transform: rotate(50deg);
+    left: -6px;
+    top: -10.5px;
+    background: inherit;
+}
+
+.startButton:hover::after{
+    
+    border-left: 1px solid #C89B3C;
+    width: 16px;
+    height: 21px;
+    content: '';
+    position: absolute;
+    transform: rotate(50deg);
+    right: -6px;
+    bottom: -10.5px;
+    background: inherit;
+} */

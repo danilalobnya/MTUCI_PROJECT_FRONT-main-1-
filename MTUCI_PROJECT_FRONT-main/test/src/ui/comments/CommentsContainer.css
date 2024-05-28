@@ -1,0 +1,26 @@
+.commentsContainer {
+    display: flex;
+    border: 2px solid #966f1a;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.ramka {
+    border: 2px solid #C89B3C;
+    display: flex;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 6%;
+    z-index: 20;
+}
+
+.text {
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 6%;
+    z-index: 10;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 550;
+}

@@ -1,0 +1,56 @@
+.videoContainer{
+    width: 1100px;
+    border: 4px solid #966f1a;
+    height: 740px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+}
+
+.ramka{
+    border: 4px solid #C89B3C;
+    margin-top: 80px;
+    width: 1090px;
+    height: 730px;
+    position: absolute;
+
+}
+
+.ramka:after {
+    content: '';
+  
+    position: absolute;
+    left: 4.5px;
+    width: 10px;
+    height: 50px;
+    background: rgb(0,0,10);
+    top: -13.25px;
+    
+    border-right: 4px solid #C89B3C;
+    z-index: 50;
+    rotate: 45deg;
+}
+
+.videoContainer:before {
+    content: '';
+  
+    position: absolute;
+    right: 4.5px;
+    width: 10px;
+    height: 50px;
+    background: rgb(0,0,10);
+    bottom: -13.25px;
+    
+    border-left: 4px solid #966f1a;
+    rotate: 45deg;
+}
+
+.video{
+    position: absolute;
+    margin-top: 80px;
+    width: 1090px;
+    height: 730px;
+    object-fit: cover;
+}

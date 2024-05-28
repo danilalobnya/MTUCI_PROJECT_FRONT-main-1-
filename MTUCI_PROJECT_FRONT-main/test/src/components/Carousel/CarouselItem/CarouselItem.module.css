@@ -1,0 +1,58 @@
+
+.wrapper {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 190px;
+    height: 240px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease, right 50s;
+}
+
+.container:hover {
+    width: 195px;
+    height: 245px;
+    cursor: pointer;
+}
+
+.container:hover .title {
+    top: 90%;
+}
+
+.title {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    position: absolute;
+    top: 120%;
+    left: 20%;
+    transition: 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 120px;
+        height: 150px;
+    }
+
+    .container {
+        width: 115px;
+        height: 145px;
+    }
+
+    .container:hover {
+        width: 118px;
+        height: 148px;
+    }
+
+    .container:hover .title {
+        top: 80%;
+    }
+}

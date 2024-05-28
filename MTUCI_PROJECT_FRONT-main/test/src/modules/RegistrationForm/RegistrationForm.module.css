@@ -1,0 +1,33 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    z-index: 10000;
+}
+
+.container {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 3px solid #111111;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 400px;
+        height: 400px;
+    }
+}
